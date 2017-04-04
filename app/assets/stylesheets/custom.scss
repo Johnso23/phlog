@@ -195,4 +195,15 @@ input {
   margin-left: 0;
 }
 
-images/figures/login_form_remember_me
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}
+
